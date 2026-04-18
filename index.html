@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHM: Mission Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Mission Control: Project Hail Mary</h2>
+    <p>Monitor Astrophage levels and contact the crew.</p>
+
+    <button id="clickBtn">Ignite Spin Drive</button>
+    <input type="text" id="textInput" placeholder="Input scientific data...">
+
+<select id="dropdown">
+    <option value="">Select Research Subject</option>
+    <option value="Astrophage">Astrophage</option>
+    <option value="Eridian">Rocky / Eridians</option>
+    <option value="The Hail Mary">The Hail Mary Ship</option>
+    <option value="Tau Ceti">Tau Ceti System</option>
+    <option value="Petrova Line">The Petrova Line</option>
+    <option value="Stratt">Administrator Stratt</option>
+    <option value="Ryland Grace">Dr. Ryland Grace</option>
+</select>
+
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter Crew Name: " required>
+        <button type="submit">Transmit to Earth</button>
+    </form>
+
+    <div id="hoverBox">EVA Suit Status: Standby</div>
+    <p id="output">Terminal initialized...</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

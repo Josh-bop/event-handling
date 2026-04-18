@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    background: radial-gradient(circle, #0d1b2a, #000814); 
+    color: #e0e1dd;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+    text-align: center;
+    background: #1b263b; 
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #415a77;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2); 
+}
+
+h2 {
+    color: #00b4d8; 
+}
+
+input, select {
+    margin: 12px;
+    padding: 10px;
+    width: 85%;
+    background-color: #f0f0f0; 
+    color: #000000;           
+    border: 1px solid #00b4d8;
+    border-radius: 4px;
+}
+
+button {
+    margin: 12px;
+    padding: 10px;
+    width: 85%;
+    background-color: #0d1b2a;
+    color: white;
+    border: 1px solid #00b4d8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e63946; 
+    color: white;
+    box-shadow: 0 0 10px #e63946;
+}
+
+input:focus {
+    border-color: #00b4d8;
+    outline: none;
+    background-color: #ffffff; /* Brighter white on focus */
+}
+
+#hoverBox {
+    margin: 15px;
+    padding: 20px;
+    background: #415a77;
+    border: 1px dashed #00b4d8;
+    font-weight: bold;
+    color: white;
+}
